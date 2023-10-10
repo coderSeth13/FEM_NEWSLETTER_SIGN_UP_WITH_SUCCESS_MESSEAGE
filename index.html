@@ -15,40 +15,30 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/images/favicon-32x32.png"
+      href="/src/assets/images/favicon-32x32.png"
     />
 
     <title>Newsletter sign-up form with success message</title>
 
-    <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-
     <!-- CSS  link-->
-    <link rel="stylesheet" href="src/styles/style.css" />
+    <link rel="stylesheet" href="/src/styles/style.css" />
 
     <!-- JS link -->
-    <script src="src/scripts/main.js" defer></script>
+    <script src="/src/scripts/main.js" defer></script>
   </head>
   <body class="grid">
     <main>
       <section class="subscribe">
         <div class="container | border-radius">
-          <div
-            class="inner-section | grid grid-place-items-center border-radius"
-          >
-            <div class="img-wrapper">
+          <div class="inner-section | grid border-radius">
+            <div class="img-wrapper flex">
               <picture>
                 <source
                   media="(min-width: 700px)"
-                  srcset="assets/images/illustration-sign-up-desktop.svg"
+                  srcset="src/assets/images/illustration-sign-up-desktop.svg"
                 />
                 <img
-                  src="assets/images/illustration-sign-up-mobile.svg"
+                  src="src/assets/images/illustration-sign-up-mobile.svg"
                   alt=""
                 />
               </picture>
@@ -65,28 +55,26 @@
                 <li
                   class="padding-block-100 max-width flex gap flex-align-items"
                 >
-                  <img src="assets/images/icon-list.svg" alt="" />
+                  <img src="/src/assets/images/icon-list.svg" alt="" />
                   <p>Product discovery and building what matters</p>
                 </li>
                 <li
                   class="padding-block-100 max-width flex gap flex-align-items"
                 >
-                  <img src="assets/images/icon-list.svg" alt="" />
+                  <img src="/src/assets/images/icon-list.svg" alt="" />
                   <p>Measuring to ensure updates are a success</p>
                 </li>
                 <li
                   class="padding-block-100 max-width flex gap flex-align-items"
                 >
-                  <img src="assets/images/icon-list.svg" alt="" />
+                  <img src="/src/assets/images/icon-list.svg" alt="" />
                   <p>And much more!</p>
                 </li>
               </ul>
 
               <form action="/" class="grid" data-js-form>
                 <div class="input-section | grid padding-block-200">
-                  <div
-                    class="flex flex-justify-space-btwn fs-small padding-block-end-100"
-                  >
+                  <div class="flex flex-justify-space-btwn fs-100">
                     <label for="Email address" class="fw-bold"
                       >Email address</label
                     >
@@ -116,7 +104,7 @@
               class="content | flex flex-direction-col flex-justify-space-btwn"
             >
               <div class="margin-block-start-400">
-                <img src="assets/images/icon-success.svg" alt="" />
+                <img src="/src/assets/images/icon-success.svg" alt="" />
 
                 <h1 class="heading-1">Thanks for subscribing!</h1>
 

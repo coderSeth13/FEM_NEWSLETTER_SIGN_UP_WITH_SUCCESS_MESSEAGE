@@ -5,7 +5,7 @@
 #### Project links
 
 - Solution URL:
-- Live Site URL:
+- Live Site URL: https://coderseth13.github.io/FEM_NEWSLETTER_SIGN_UP_WITH_SUCCESS_MESSEAGE/
 
 #### Social links
 
